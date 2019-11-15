@@ -32,7 +32,7 @@ function extractContracts (d) {
     if (addresses[i] === 'eth') {
       res.push('eth')
     } else {
-      res.push(module.contracts[addresses[i]])
+      res.push(contracts[addresses[i]])
     }
   }
   return res
@@ -77,14 +77,13 @@ async function shouldChangeBalance (f, expected) {
  * Saves `contract` for later use
  */
 function register (contract) {
-  if (!module.contracts) {
-    module.contracts = {}
-  }
-  module.contracts[contract.address] = contract
+  contracts[contract.address] = contract
 }
 
+const contracts = {}
 
 module.exports = exports = {
+  contracts,
   'assertChange': shouldChangeBalance,
   'register': register
 }
