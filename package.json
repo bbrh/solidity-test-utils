@@ -1,0 +1,25 @@
+{
+  "name": "solidity-test-utils",
+  "version": "1.0.0",
+  "description": "Test functions for truffle and solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bbrh/solidity-test-utils.git"
+  },
+  "keywords": [
+    "solidity",
+    "truffle",
+    "unit-testing"
+  ],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/bbrh/solidity-test-utils/issues"
+  },
+  "homepage": "https://github.com/bbrh/solidity-test-utils#readme",
+  "dependencies": {}
+}
