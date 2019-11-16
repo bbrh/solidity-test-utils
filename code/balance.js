@@ -1,8 +1,8 @@
-"use strict";
+'use strict'
 
-const BN = web3.utils.BN;
-const snapshots = require('./snapshots.js');
-const commission = require('./commision.js');
+const BN = web3.utils.BN
+const snapshots = require('./snapshots.js')
+const commission = require('./commision.js')
 
 
 /**

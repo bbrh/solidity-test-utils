@@ -1,7 +1,7 @@
 async function shouldFail (f) {
   let err = null
   try {
-    let b = await f()
+    await f()
   } catch(error) {
     err = error
   }
